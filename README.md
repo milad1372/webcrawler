@@ -18,7 +18,7 @@ You can install these dependencies using `pip`:
 ```sh
 pip install requests
 pip install beautifulsoup4
-```sh
+```
 
 ## Usage
 To use the program, import and call the crawl_website function from your Python script:
@@ -32,7 +32,7 @@ unique_links = crawl_website(start_url, max_pages)
 
 for link in unique_links:
     print(link)
-```Python
+```
 
 Replace "https://your-website-url.com/" with the website you want to crawl.
 
